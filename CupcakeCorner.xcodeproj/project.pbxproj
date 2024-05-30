@@ -11,6 +11,12 @@
 		0E0F56982C0906160061B862 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0F56972C0906160061B862 /* ContentView.swift */; };
 		0E0F569A2C0906170061B862 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E0F56992C0906170061B862 /* Assets.xcassets */; };
 		0E0F569D2C0906170061B862 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E0F569C2C0906170061B862 /* Preview Assets.xcassets */; };
+		0E0F56A42C0914B00061B862 /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0F56A32C0914B00061B862 /* ImageView.swift */; };
+		0E0F56A62C0915CA0061B862 /* ValidationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0F56A52C0915CA0061B862 /* ValidationView.swift */; };
+		0E0F56A82C091F8A0061B862 /* ObserveableCodableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0F56A72C091F8A0061B862 /* ObserveableCodableView.swift */; };
+		0E0F56AA2C0924870061B862 /* FetchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0F56A92C0924870061B862 /* FetchView.swift */; };
+		0E0F56AC2C0925A20061B862 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0F56AB2C0925A20061B862 /* Order.swift */; };
+		0E0F56B02C092ABB0061B862 /* AddressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0F56AF2C092ABB0061B862 /* AddressView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +25,12 @@
 		0E0F56972C0906160061B862 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0E0F56992C0906170061B862 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0E0F569C2C0906170061B862 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0E0F56A32C0914B00061B862 /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
+		0E0F56A52C0915CA0061B862 /* ValidationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationView.swift; sourceTree = "<group>"; };
+		0E0F56A72C091F8A0061B862 /* ObserveableCodableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObserveableCodableView.swift; sourceTree = "<group>"; };
+		0E0F56A92C0924870061B862 /* FetchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchView.swift; sourceTree = "<group>"; };
+		0E0F56AB2C0925A20061B862 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		0E0F56AF2C092ABB0061B862 /* AddressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +65,12 @@
 			children = (
 				0E0F56952C0906160061B862 /* CupcakeCornerApp.swift */,
 				0E0F56972C0906160061B862 /* ContentView.swift */,
+				0E0F56AF2C092ABB0061B862 /* AddressView.swift */,
+				0E0F56AB2C0925A20061B862 /* Order.swift */,
+				0E0F56A92C0924870061B862 /* FetchView.swift */,
+				0E0F56A32C0914B00061B862 /* ImageView.swift */,
+				0E0F56A52C0915CA0061B862 /* ValidationView.swift */,
+				0E0F56A72C091F8A0061B862 /* ObserveableCodableView.swift */,
 				0E0F56992C0906170061B862 /* Assets.xcassets */,
 				0E0F569B2C0906170061B862 /* Preview Content */,
 			);
@@ -137,8 +155,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E0F56A42C0914B00061B862 /* ImageView.swift in Sources */,
+				0E0F56A62C0915CA0061B862 /* ValidationView.swift in Sources */,
 				0E0F56982C0906160061B862 /* ContentView.swift in Sources */,
+				0E0F56A82C091F8A0061B862 /* ObserveableCodableView.swift in Sources */,
 				0E0F56962C0906160061B862 /* CupcakeCornerApp.swift in Sources */,
+				0E0F56B02C092ABB0061B862 /* AddressView.swift in Sources */,
+				0E0F56AA2C0924870061B862 /* FetchView.swift in Sources */,
+				0E0F56AC2C0925A20061B862 /* Order.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
